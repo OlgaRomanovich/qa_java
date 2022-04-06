@@ -17,9 +17,9 @@ public class Lion {
 
         this.feline = feline;
     }
-
     Feline feline;
-
+    public Lion() {
+    }
     public int getKittens() {
         return feline.getKittens();
     }
